@@ -1,0 +1,100 @@
+/* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+
+
+.example-spacer {
+    flex: 1 1;
+}
+
+.nav-list {
+    width: 170px;
+}
+
+.mat-elevation-z5 {
+    position: relative;
+    z-index: 2;
+    background-color: lightcyan;
+}
+
+.mat-sidenav a:hover {
+    background-color: lightgoldenrodyellow;
+    transition: all .3s;
+    transform: scale(1.1);
+}
+
+.mat-sidenav {
+    transition: all 3s;
+    border-right: blanchedalmond solid 2px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h1 {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    width: 160px;
+    text-align: center;
+    margin: auto;
+    white-space: nowrap;
+    padding-bottom: 13px;
+    font-family: "Raleway", sans-serif;
+}
+
+h1:after {
+    background-color: #c50000;
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 3px;
+    width: 75px;
+    margin-bottom: 0.25em;
+}
+
+h1:before {
+    background-color: #c50000;
+    content: '';
+    display: block;
+    height: 3px;
+    width: 75px;
+    margin-bottom: 5px;
+}
+.icons{
+    transition: all 3s;
+}
+.icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icons:hover{
+    transition: all .3s;
+    transform: scale(1.3);
+}
+
+
+.mat-mdc-row.mdc-data-table__row.cdk-row.ng-star-inserted:hover{
+    background-color:#E6E6FA;
+}
+
+  
+  
+  
+  
+  
+  
+  
